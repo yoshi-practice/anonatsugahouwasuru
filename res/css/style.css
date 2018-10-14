@@ -24,7 +24,7 @@ body {
 
 .word {
 
-    margin: 5vh 15vw 2vh 15vw;
+    margin: 7vh 15vw 2vh 15vw;
 
 }
 
@@ -41,6 +41,7 @@ p {
 
 
 #p1 {
-    margin: 0 25vw;
-    min-width: 50vw;
+    margin: 0 35vw;
+    min-width: 30vw;
+    display: none;
 }
