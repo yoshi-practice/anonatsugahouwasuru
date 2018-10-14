@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="res/css/style.css" type="text/css">
     <script type="text/javascript">
         /* ----- option ----- */
-        var id = ['']; //指定するidを全て配列で渡す
+        var id = ['p3-1', 'p3-2', 'p3-3', 'p3-4', 'p3-5', 'p3-6', 'p3-7']; //指定するidを全て配列で渡す
         var txSp = 100; // テキストの表示速度
         var dly = 1000; // 次の文章までの待ち時間
         /* ----- option ----- */
@@ -47,6 +47,16 @@
                 }
             }
         }
+
+        // sleep() で（）秒間Sleep
+        // ビジーwaitを使う方法
+        function sleep(waitMsec) {
+            var startMsec = new Date();
+
+            // 指定ミリ秒間だけループさせる（CPUは常にビジー状態）
+            while (new Date() - startMsec < waitMsec);
+        }
+
     </script>
 </head>
 
@@ -66,6 +76,15 @@
         </div>
         <div id="p2">
             <p>あの夏が飽和する。</p>
+        </div>
+        <div id="p3">
+            <p id="p3-1">「殺したのは隣の席の、いつも虐めてくるアイツ。</p>
+            <p id="p3-2">もう嫌になって、肩を突き飛ばして、</p>
+            <p id="p3-3">打ち所が悪かったんだ。 </p>
+            <p id="p3-4">もうここには居られないと思うし、</p>
+            <p id="p3-5">どっか遠いとこで死んでくるよ」</p>
+            <p id="p3-6">そんな君に僕は言った。</p>
+            <h2 id="p3-7">「それじゃ僕も連れてって」</h2>
         </div>
     </div>
 </body>
