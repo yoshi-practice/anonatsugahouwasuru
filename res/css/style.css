@@ -34,6 +34,11 @@ h1 {
     letter-spacing: 4vh;
 }
 
+h2 {
+    font-size: 4vh;
+    letter-spacing: 1.5vh;
+}
+
 p {
     font-size: 3.5vh;
     letter-spacing: 1vh
